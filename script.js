@@ -30,3 +30,7 @@ checkbox.addEventListener('change', () => {
     // console.log(colorField);
 });
 
+function func(callback) {
+  callback();
+}
+func(() => {console.log("hej"});
